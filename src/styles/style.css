@@ -63,6 +63,47 @@ header #logo{
     font-size: 58px;
 }
 
+#painel-cronometro {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 20px 14px;   
+    border-radius: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1000;
+}
+
+#cronometro {
+    font-size: 24px; 
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    background: #aad7f3; 
+    color: white;
+}
+
+#botoes button {
+    background-color: rgba(89, 140, 158, 0.7);
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    margin: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#botoes button:hover {
+    background-color: rgba(89, 140, 158, 0.9); 
+    transform: scale(1.05);
+}
+
+#botoes button:active {
+    transform: scale(0.95);
+}
+
 #container-main{
     width: 100%;
     height: auto;
@@ -104,6 +145,7 @@ header #logo{
    border: none;
    border-radius: 10px;
    width: 15%;
+   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #limpar:hover{
