@@ -81,7 +81,7 @@ header #logo{
 }
 
 #container-escrever{
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 #escrever{
@@ -94,6 +94,23 @@ header #logo{
     height: 50vh;
     padding: 20px 0px 20px 10px;
 }
+
+#limpar{
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(51, 77, 86, 1);
+   padding: 20px; 
+   border: none;
+   border-radius: 10px;
+   width: 15%;
+}
+
+#limpar:hover{
+    transition: 0.8s;
+    transform: scale(1.01);
+    background-color: rgb(89, 140, 158, 0.7);
+} 
 
 footer{
     font-family: "Arial", sans-serif;
